@@ -1,0 +1,149 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    /* overflow-x: hidden; */
+    
+}
+
+.navbar {
+
+
+    height: 60px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+
+}
+
+.logo {
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.nav-keys {
+    margin-top: -40px;
+    margin-left: 600px;
+    padding: 10px;
+
+}
+
+.bb {
+    color: #d6a55c;
+    padding: 15px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.bb:hover{
+    color: white;
+    transform: scale(1.1);
+
+}
+
+.home {
+    padding-left: 20px;
+
+}
+.background{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.heading{
+
+    margin-top: 650px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.site-plan{
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.site-img{
+    height: 800px;
+    justify-content: center;
+}
+
+.site-para{
+    width: 95vw;
+    margin: auto;
+    display: block;
+    font-size: 20px;
+    text-align: center
+}
+
+.our-clinets {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.clinets-img {
+    display: flex;
+}
+
+.footer {
+
+    height: 200px;
+    width: auto;
+    border: 2px solid black;
+    background: linear-gradient(135deg, rgba(7, 1, 2, 1) 0%, rgba(28, 27, 25, 1) 21%, rgba(45, 45, 41, 1) 50%, rgba(38, 15, 8, 1) 78%, rgba(10, 5, 5, 1) 100%);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.othermenu {
+    margin-top: 50px;
+
+    color: #bb8d41;
+
+}
+
+.CONTACT-US {
+    color: #bb8d41;
+    margin-top: 50px;
+
+}
+
+.FOLLOW-US {
+    color: #bb8d41;
+    margin-top: 50px;
+}
+
+.Refund {
+    color: rgb(255, 212, 156);
+}
+
+.icone {
+
+    padding: 3px;
+}
+
+.rights {
+    border: 2px solid black;
+    height: 50px;
+    width: auto;
+    background-color: black;
+    text-align: center;
+}
+
+.all {
+    margin-top: 10px;
+    color: rgb(129, 129, 129);
+}
+
+.alltwo {
+
+    color: white;
+
+}

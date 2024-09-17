@@ -1,0 +1,326 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+    
+    
+
+}
+.colour{
+    background-color: #e9e8e8;
+    overflow-x: hidden;
+}
+
+.nav-keys{
+  margin-top: -40px;
+  margin-left: 600px;
+  padding: 10px;
+  
+}
+
+.bb{
+  color: #d6a55c;
+  padding: 15px;
+  text-decoration: none;
+  transition: 1s;
+}
+
+  .bb:hover{
+    color: white;
+    transform: scale(1.1);
+
+}
+.home{
+padding-left: 20px; 
+
+}
+.navbar{
+    
+     
+    height: 60px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: black;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    
+   
+    
+}
+
+.logo{
+margin-top: 8px;
+margin-left: 8px;
+
+}
+
+.home{
+    margin: 0 10px;
+    
+  }
+
+  .companyhistory{
+    padding-top: 40px;
+    text-align: center;
+    color: #766040;
+    
+    ;
+  }
+
+  .para{
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+ .list{
+    margin-left: 30px;
+ } 
+ .bold{
+    color: #483939;
+ }
+
+ .info{
+    background-color: #EDF3F9;
+    padding-top: 30px;
+    padding-left: 60px;
+    color: #766040;
+    font-weight:bolder;
+ }
+
+ .Emporio{
+  background-color: #EDF3F9;
+  display: flex;
+
+ }
+
+ .shape{
+  padding-left: 200px;
+  padding-top: 30px;
+ }
+
+.word{
+  padding-left: 20px;
+}
+
+.ion{
+  color: #766040;
+  margin-left: 250px;
+  margin-top: 30px;
+}
+
+.become{
+  padding-left: 40px;
+  font-size: 18px;
+}
+
+.vision{
+  display: flex;
+}
+
+.vision-img{
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.mission{
+  display: flex;
+  background-color: #EDF3F9;
+}
+
+.missss{
+  color: #766040;
+  margin-left: 250px;
+  padding-top: 50px;
+}
+
+.providing{
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+.missinimg{
+  
+margin-top: 50px;
+margin-left: 30px;
+  border-radius: 20px;
+}
+
+.corporate{
+  display: flex;
+}
+
+.cor{
+  color: #766040;
+  margin-left: 250px;
+  margin-top: 30px;
+}
+
+.honesty{
+  padding-left: 40px;
+  font-size: 18px;
+}
+
+
+.corporate-img{
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.our-clinets{
+  text-align: center;
+  font-weight: bolder;
+}
+
+.clinets-img{
+  display: flex;
+}
+
+.footer{
+
+  height: 200px;
+  width: auto;
+  border: 2px solid black;
+  background: linear-gradient(135deg, rgba(7, 1, 2, 1) 0%, rgba(28, 27, 25, 1) 21%, rgba(45, 45, 41, 1) 50%, rgba(38, 15, 8, 1) 78%, rgba(10, 5, 5, 1) 100%);
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.othermenu{
+  margin-top: 50px;
+
+  color: #bb8d41;
+  
+}
+
+.CONTACT-US{
+  color: #bb8d41;
+  margin-top: 50px;
+
+}
+
+.FOLLOW-US{
+  color: #bb8d41;
+  margin-top: 50px;
+}
+.Refund{
+  color: rgb(255, 212, 156);
+}
+
+.icone{
+
+  padding: 3px;
+}
+
+.rights{
+  border: 2px solid black;
+  height: 50px;
+  width: auto;
+  background-color: black;
+  text-align: center;
+}
+
+.all{
+  margin-top: 10px;
+  color: rgb(129, 129, 129);
+}
+
+.alltwo{
+
+  color: white;
+
+}
+
+.title{
+
+  text-align: center;
+}
+
+.info{
+  text-align: center;
+
+}
+
+.wrapper{
+  height: 400px;
+  width: 320px;
+  position: relative;
+  transform-style: preserve-3d;
+ perspective: 1000px;
+ margin-left: 40px;
+ display: flex;
+}
+.wrapper .card{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  background: #fff;
+  border-radius: 10px;
+  transform: translateY(0deg);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+  transition: transform 0.7s cubic-bezier(0.4,0.2,0.2,1);
+}
+.wrapper:hover > .front-face{
+  transform: rotateY(-180deg);
+}
+.wrapper .card img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.wrapper .back-face{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  transform: rotateY(180deg);
+}
+.wrapper:hover > .back-face{
+  transform: rotateY(0deg);
+}
+.wrapper .back-face img{
+  height: 150px;
+  width: 150px;
+  padding: 5px;
+  border-radius: 50%;
+  background: linear-gradient(375deg, #1cc7d0, #2ede98);
+}
+.wrapper .back-face .info{
+  text-align: center;
+}
+.back-face .info .title{
+  font-size: 30px;
+  font-weight: 500;
+}
+.back-face ul{
+  display: flex;
+}
+.back-face ul a{
+  display: block;
+  height: 40px;
+  width: 40px;
+  color: #fff;
+  text-align: center;
+  margin: 0 5px;
+  line-height: 38px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background: linear-gradient(375deg, #1cc7d0, #2ede98);
+  transition: all 0.5s ease;
+}
+.back-face ul a:hover{
+  color: #1cc7d0;
+  border-color: #1cc7d0;
+  background: linear-gradient(375deg, transparent, transparent);
+}
+
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,183 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+
+}
+
+.navbar{
+    
+     
+    height: 60px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+   
+    
+}
+
+.logo{
+margin-top: 8px;
+margin-left: 8px;
+}
+.nav-keys{
+    margin-top: -40px;
+    margin-left: 600px;
+    padding: 10px;
+    
+  }
+  
+  .bb{
+    color: #d6a55c;
+    padding: 15px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+    .bb:hover{
+        color: white;
+        transform: scale(1.1);
+    
+    }
+.home{
+padding-left: 20px; 
+
+}
+
+.Consultation{
+    border: 1px solid #f7f7f7;
+    height: 80px ;
+    width: auto;
+    background-color:#e5e2e2;
+    margin-top: 50px;
+}
+
+.Consultationtext{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.Services{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+.customer{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.image{
+    padding: 20px;
+    border-radius: 50%;
+    
+}
+
+.whtsap{
+    border: 2px solid green;
+    height: 40px;
+    width: 400px;
+    margin-left: 420px;
+    border-radius: 10px;
+    background-color: green;
+}
+
+.whatsapp{
+    margin: -29px;
+    margin-left: 150px;
+    font-size: 18px;
+    color: white;
+    
+}
+
+.iccone{
+    margin-left: 110px;
+    margin-top: 5px;
+}
+
+.qr{
+    text-align: center;
+}
+
+.code{
+    
+    margin-left: 450px;
+    margin-top: 20px;
+}
+
+.our-clinets{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.clinets-img{
+    display: flex;
+}
+
+.footer{
+
+    height: 200px;
+    width: auto;
+    border: 2px solid black;
+    background: linear-gradient(135deg, rgba(7, 1, 2, 1) 0%, rgba(28, 27, 25, 1) 21%, rgba(45, 45, 41, 1) 50%, rgba(38, 15, 8, 1) 78%, rgba(10, 5, 5, 1) 100%);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.othermenu{
+    margin-top: 50px;
+
+    color: #bb8d41;
+    
+}
+
+.CONTACT-US{
+    color: #bb8d41;
+    margin-top: 50px;
+
+}
+
+.FOLLOW-US{
+    color: #bb8d41;
+    margin-top: 50px;
+}
+.Refund{
+    color: rgb(255, 212, 156);
+}
+
+.icone{
+
+    padding: 3px;
+}
+
+.rights{
+    border: 2px solid black;
+    height: 50px;
+    width: auto;
+    background-color: black;
+    text-align: center;
+}
+
+.all{
+    margin-top: 10px;
+    color: rgb(129, 129, 129);
+}
+
+.alltwo{
+
+    color: white;
+
+}
